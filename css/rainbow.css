@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+div.container{
+
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/dog.jpg");
+}
+
+div.middle-text p,
+div.bottom-text p{
+    font-size: 14pt;
+}
+
+div button{
+    background-color: #fff;
+    height: 30px;
+    width: 100px;
+    padding: 0!important;
+    margin: 0!important;   
+}
+
+.contact-error{
+    border: 1px solid red;
+
+}
+
+.contact-black{
+    border: 1px solid black;
+
+}
+
+
+@media (min-width:1px) and (max-width: 767px){ 
+
+    div.container{    
+        background-position: initial;
+        background-image: url("../images/dog-mobile.png");       
+    }
+}
+
+
+
